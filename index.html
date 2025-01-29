@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="style.css" />
     <title>App Dukeza</title>
   </head>
+  
   <body>
+    
+  
     <header id="title">
       <div class="responsive-container">
         <!-- Navbar -->
@@ -88,7 +91,7 @@
         </div>
 
         <div class="feature-box col-lg-4">
-          <i class="icon fa-sharp-duotone fa-solid fa-bullseye fa-4x"></i>
+          <i class="icon fa-solid fa-bullseye fa-4x"></i>
           <h3>Os melhores Gatos</h3>
           <p>Temos os melhores gatinhos para você</p>
         </div>
@@ -101,69 +104,103 @@
       </div>
     </section>
 
-   
-      <!-- Carrossel--> 
-       <section id="testimonials">
-     <!-- Carrossel -->
-<div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <h2>Muito bom, o sistema é ótimo para encontrar seu gato.</h2>
-        <img class="testimonial-image" src="/img/Gato-preto.png" alt="Duzeza" />
-        <em>Juazeiro, Ceará</em>
+    <!-- Carrossel -->
+    <section id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-bs-touch="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Muito bom, o sistema é ótimo para encontrar seu gato.</h2>
+            <img
+              class="testimonial-image"
+              src="img/Gato-preto.png"
+              alt="Gatinho Preto"
+            />
+            <em>Juazeiro, Ceará</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Meu app é muito bom, um dos melhores do mercado</h2>
+            <img
+              class="testimonial-image"
+              src="img/Alisson.png"
+              alt="Alisson"
+            />
+            <em>Fortaleza, Ceará</em>
+          </div>
+        </div>
+
+        <!-- Navegação do carrossel -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="prev"
+          aria-label="Previous slide"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="next"
+          aria-label="Next slide"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item">
-        <h2>Meu app é muito bom, um dos melhores do mercado</h2>
-        <img class="testimonial-image" src="img/Alisson.png" alt="Alisson">
-        <em>Fortaleza, Ceará</em>
-      </div>
-    </div>
-  
-    <!-- Navegação do carrossel -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev" aria-label="Previous slide">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next" aria-label="Next slide">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
-  </div>
-</section>
-  <!-- Fim Carrosel -->
+    </section>
+    <!-- Fim Carrossel -->
 
     <section id="press">
-      <img class="press-logo" src="img/1.png" alt="logo1" />
-      <img class="press-logo" src="img/2.png" alt="logo2" />
-      <img class="press-logo" src="img/3.png" alt="logo3" />
-      <img class="press-logo" src="img/4.png" alt="logo4" />
+      <img class="press-logo" src="img/1.png" alt="Logo 1" />
+      <img class="press-logo" src="img/2.png" alt="Logo 2" />
+      <img class="press-logo" src="img/3.png" alt="Logo 3" />
+      <img class="press-logo" src="img/4.png" alt="Logo 4" />
     </section>
 
     <section id="pricing">
-      <h2>Preços</h2>
-      <p>Escolha o melhor plano para você.</p>
-
-      <div class="pricing-option">
-        <h3>Plano Básico</h3>
-        <h2>Grátis</h2>
-        <p>Tenha acesso a recursos essenciais.</p>
-        <button type="button">Inscreva-se</button>
+        <!--Cards-->
+        <div class="cabecalho">
+          <div class="card-header">
+          <h2>Um plano para as necessidades de cada Gato</h2>
+          <p>Planos de preços simples e acessíveis para você e seu Gato </p>
       </div>
-
-      <div class="pricing-option">
-        <h3>Plano Padrão</h3>
-        <h2>R$50,00 / mês</h2>
-        <p>Mais funcionalidades e benefícios.</p>
-        <button type="button">Inscreva-se</button>
-      </div>
-
-      <div class="pricing-option">
-        <h3>Plano Premium</h3>
-        <h2>R$99,00 / Mês</h2>
-        <p>Acesso completo a todos os recursos.</p>
-        <button type="button">Inscreva-se</button>
-      </div>
-    </section>
-
-    <section id="cta">
+  
+        <div class="card">
+          <div class="card-header">
+          <h3> Pé duro </h3></div>
+          <div class="card-body">
+          <h2>R$ 25 /mês</h2>
+          <p> Curtidas ilimitadas</p>
+          <p> Mensagens ilimitadas </p>
+          <p> Acesso pleno do app</p>
+          <button type="button">Inscreva-se</button></div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+          <h2>
+     
+        <div class="pricing-option">
+          <h3>Plano Padrão</h3>
+          <h2>R$50,00 / mês</h2>
+          <p>Lista de prioridades</p>
+          <p>Curtidas ilimitadas</p>
+          <p>Acesso completo ao APP</p>
+          <button type="button">Inscreva-se</button>
+        </div>
+  
+        <div class="pricing-option">
+          <h3>Plano Premium</h3>
+          <h2>R$99,00 / Mês</h2>
+          <p>Acesso completo a todos os recursos.</p>
+          <button type="button">Inscreva-se</button>
+        </div><section id="cta">
       <h3>Faça agora mesmo o download.</h3>
       <button type="button">Download</button>
       <button type="button">Download</button>
@@ -173,12 +210,8 @@
       <p>© Copyright 2022 AppDukeza</p>
     </footer>
 
-    <!-- Incluindo o JavaScript necessário para o Bootstrap 5 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4z2YYtP1eGz6d/6bA3r5t9a6frO41Uq5Cp5L1Q48J7mR1p6hxlgzP"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <!-- Scripts do Bootstrap (JS e Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
