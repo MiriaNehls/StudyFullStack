@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 body {
@@ -11,17 +12,17 @@ h1 {
   font-weight: 600;
 }
 
-h2 {
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height: 1.5;
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
 }
 h3 {
-  font-family: "Montserrat-Bold";
+    font-family: "Montserrat-Bold";
 }
 
-p {
-  color: #8f8f8f;
+p{
+    color: #8f8f8f;
 }
 
 #title {
@@ -38,7 +39,7 @@ p {
   padding: 3% 15%;
 }
 
-/*Navigation bar */
+/*Navigation bar*/
 .navbar-brand {
   padding-bottom: 0 0 4.5rem;
 }
@@ -63,7 +64,7 @@ p {
   margin: 0 auto;
 }
 
-/*Features Scetion */
+/*Features Scetion*/
 
 #features {
   padding: 7% 155;
@@ -73,40 +74,42 @@ p {
   padding: 5%;
 }
 
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
 }
 
-.icon:hover {
-  color: #ff4c68;
+.icon:hover{
+    color: #ff4c68;
 }
 
 /* Testimonials Section */
 
-#testimonials {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ef8172;
-  color: #fff;
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
 }
 
-.testimonials-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.carousel-item{
+    padding: 7% 15%;
+
 }
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
